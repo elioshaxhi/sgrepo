@@ -1,6 +1,19 @@
 /customlib/dist/
 /customlib/lib/
 /customlib/build/
-
 /customlib/nbproject/private/
+
+/SGRepoBE/dist/
+/SGRepoBE/build/
+/SGRepoBE/nbproject/private/
+/SGRepoBE/lib/GWT2.5.1/
+/SGRepoBE/lib/GXT2.5/
+
+/SGRepoFE/dist/
+/SGRepoFE/build/
+/SGRepoFE/nbproject/private/
+/SGRepoFE/lib/GWT2.5.1/
+/SGRepoFE/lib/GXT2.5/
+
+
 

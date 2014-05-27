@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="http://localhost:8084/SGSUsersService/sgs_users_service?wsdl" uri="src/conf/xml-resources/web-service-references/sgs_users_service/wsdl/localhost_8084/SGSUsersService/sgs_users_service.wsdl"/>
-    <system systemId="http://localhost:8084/SGSUsersService/sgs_users_service?xsd=1" uri="src/conf/xml-resources/web-service-references/sgs_users_service/wsdl/localhost_8084/SGSUsersService/sgs_users_service.xsd_1.xsd"/>
-    <system systemId="http://172.16.33.180:8080/SGSUsersService/sgs_users_service?wsdl" uri="src/conf/xml-resources/web-service-references/sgs_users_service/wsdl/172.16.33.180_8080/SGSUsersService/sgs_users_service.wsdl"/>
-    <system systemId="http://172.16.33.180:8080/SGSUsersService/sgs_users_service?xsd=1" uri="src/conf/xml-resources/web-service-references/sgs_users_service/wsdl/172.16.33.180_8080/SGSUsersService/sgs_users_service.xsd_1.xsd"/>
-</catalog>

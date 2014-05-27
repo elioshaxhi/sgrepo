@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://seriousgames.elios.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://seriousgames.elios.org/">
+
+<xs:element name="checkUser" type="tns:checkUser" />
+
+<xs:element name="checkUserResponse" type="tns:checkUserResponse" />
+
+<xs:element name="getAccess" type="tns:getAccess" />
+
+<xs:element name="getAccessResponse" type="tns:getAccessResponse" />
+
+<xs:element name="getUpdatedUsers" type="tns:getUpdatedUsers" />
+
+<xs:element name="getUpdatedUsersResponse" type="tns:getUpdatedUsersResponse" />
+
+<xs:element name="getUserInfo" type="tns:getUserInfo" />
+
+<xs:element name="getUserInfoResponse" type="tns:getUserInfoResponse" />
+
+<xs:complexType name="getUserInfo">
+<xs:sequence>
+<xs:element name="key" type="xs:string" minOccurs="0" />
+<xs:element name="username" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserInfoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAccess">
+<xs:sequence>
+<xs:element name="appName" type="xs:string" minOccurs="0" />
+<xs:element name="password" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAccessResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUpdatedUsers">
+<xs:sequence>
+<xs:element name="key_session" type="xs:string" minOccurs="0" />
+<xs:element name="lastUpdateTime" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUpdatedUsersResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkUser">
+<xs:sequence>
+<xs:element name="key" type="xs:string" minOccurs="0" />
+<xs:element name="username" type="xs:string" minOccurs="0" />
+<xs:element name="userpassword" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkUserResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

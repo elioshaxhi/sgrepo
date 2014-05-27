@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	line-height:1.6em;
+}
+
+/* This tag is used for the Version number. It is <h1> to comply with accessibility 
+requirements of headings appearing in order. */
+#sidebar h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+	vertical-align: text-bottom;
+	margin-bottom: 2px;
+	margin-top: 12px;
+}
+
+/* This tag is used for sect1 headings in the toc but could be used elsewhere in the sidebar. */
+#sidebar ul  {
+	list-style-type: none;
+	line-height: 1.3em;
+	margin-top: 0;
+	margin-right: 6px;
+	margin-bottom: 0;
+	margin-left: 6px;
+	padding-top: 0;
+	padding-right: 6px;
+	padding-bottom: 0;
+	padding-left: 6px;
+}
+
+/* This tag is used for sect2 headings in the toc but could be used elsewhere in the sidebar. */
+#sidebar ul ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 6px;
+	margin-bottom: 0px;
+	margin-left: 6px;
+	padding-top: 0px;
+	padding-right: 6px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+
+/* This tag applies to content lines in the sidebar boxes */
+#sidebar p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* The <h2> that is copied over from the DARB output TOC uses this class, but the 
+DARB CSS has not rule for it. */
+#sidebar_toc_box .tocheader {
+	font-size: 11px;
+	margin-top: 6px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+}
+
+h1{/*article name*/
+	color:#385E76;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:24px;
+}
+
+h2{/*section name*/
+	color:#000000;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+h3 {
+	font-size: 113%;
+	font-weight: bold;
+	display: inline;
+}
+h4 {
+	font-size: 113%;
+	font-weight: bold;
+	display: inline;
+}
+
+h5 {
+	font-size: 100%;
+	font-weight: bold;
+	font-style: italic;
+	display: inline;
+}
+
+
+ol ol {
+	list-style-type: lower-alpha;
+}
+
+ol ol ol {
+	list-style-type: lower-roman;
+}

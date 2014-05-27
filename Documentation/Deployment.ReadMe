@@ -1,0 +1,35 @@
+Program files
+-------------
+
+The SGRepo depends on third party library lucene.
+The following jars are required, and should be placed where a loader can find
+them, e.g. in ${CATALINA_BASE}/lib.
+- lucene-core-4.7.0.jar
+- lucene-analyzers-common-4.7.0.jar
+- lucene-queryparser-4.7.0.jar
+
+
+
+Parameters
+----------
+When deploying this software on an a tomcat server, there are some
+parameters that need to be supplied.
+
+First there is the database that we sould connect to. This connection
+details are to be supplied in a resource with the name jdbc/GalaDB.
+
+Second, there is the directory where the indexing information (for text
+searches) should be stored. For this we use an environment variable with
+the name 'indexDir'.
+
+In web/WEB-INF/web.xml those resources and variables are named. You could
+give a value to them in that file. With a tomcat server, the preferred way
+is rather to do that in a configuration file.
+
+File SGRepoFE.xml contains an example file that can be used as a template
+for a tomcat configuration file. It should be adapted (location of indexDir
+and at least user name and password of the database) and copied to
+${CATALINA_BASE}/conf/Catalina/localhost/SGRepoFE.xml
+
+Actually, you should probably only copy the Resource and Environment
+elements of this xml-file.

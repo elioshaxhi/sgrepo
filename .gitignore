@@ -15,5 +15,17 @@
 /SGRepoFE/lib/GWT2.5.1/
 /SGRepoFE/lib/GXT2.5/
 
+/SGSUsersService/dist/
+/SGSUsersService/build/
+/SGSUsersService/nbproject/private/
+
+/SGRepoAnalytics/build/
+/SGRepoAnalytics/dist/
+/SGRepoAnalytics/nbproject/private
+/SGRepoAnalytics/lib/GWT2.5.1/
+
+
+
+
 
 

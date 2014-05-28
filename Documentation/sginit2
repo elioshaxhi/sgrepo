@@ -1,4 +1,0 @@
-connection-string=jdbc:mysql://localhost:3306/vre
-user=root
-password=
-indexdir=/home/elion/temp/sgindex

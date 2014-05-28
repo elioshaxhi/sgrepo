@@ -1,5 +1,0 @@
-bisogna aumantare la heapdel compilatore GWT almeno a 512mb
-per fare cios bisogna andare sulle proprieta del progetto ,sul google web toolcit
-e sulla finestra corispondente del gwt e cambiare il va 256XMx in 512Xmx,
-la cartela "ImportanteLib contiene la libreria neccesarie per Analytics".
-Utilizo la libreria GXT 3.0.1.
